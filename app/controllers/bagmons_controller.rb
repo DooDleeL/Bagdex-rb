@@ -1,4 +1,4 @@
-class BagmonsController < ApplicationController
+class BagmonsController < UsersBackofficeController
   before_action :set_bagmon, only: %i[ show edit update destroy ]
   before_action :set_type_options, only: %i[ create new edit update ]
 
